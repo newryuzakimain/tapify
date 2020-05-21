@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem 0;
+}
+
+.label {
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.info {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #c3c3c3;
+}

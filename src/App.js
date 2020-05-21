@@ -6,7 +6,7 @@ import Main from './containers/Main';
 
 const App = () => {
   return (
-    <Layout>
+    <Layout className='App'>
       <Main />
     </Layout>
   );

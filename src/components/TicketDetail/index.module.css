@@ -1,0 +1,7 @@
+.root {
+  background-color: #323232;
+  padding: 1rem;
+  border-radius: 2px;
+  position: relative;
+  height: -webkit-fill-available;
+}

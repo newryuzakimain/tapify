@@ -1,0 +1,17 @@
+.locationContainer {
+  display: flex;
+  margin-top:0.2rem;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  margin-right: 5px !important;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #c3c3c3;
+  border: 1px solid #252525;
+  border-radius: 2px;
+  width: 50px;
+}

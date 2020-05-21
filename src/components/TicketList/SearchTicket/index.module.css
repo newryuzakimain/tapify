@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #323232;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.container svg {
+  fill: #8c8c8c;;
+}
+
+.container input {
+  background: unset;
+  border: none;
+  color: #8c8c8c;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+}

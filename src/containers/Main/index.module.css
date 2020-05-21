@@ -1,12 +1,16 @@
 .container {
   display: flex;
+  height: calc(100vh - 60px);
+  padding-top: .5rem;
 }
 
 .ticketList {
   width: 400px;
+  height: 100%;
 }
 
 .ticketDetail {
   width: calc(100vw - 400px);
   padding-left: .5rem;
+  height: 100%;
 }

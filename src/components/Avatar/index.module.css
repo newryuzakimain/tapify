@@ -1,0 +1,10 @@
+.root {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.small {
+  width: 25px;
+  height: 25px;
+}

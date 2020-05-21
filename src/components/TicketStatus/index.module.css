@@ -1,0 +1,19 @@
+.container {
+  border: 1px solid #252525;
+  border-radius: 2px;
+  padding: 2px 4px;
+  width: 36px;
+  text-align: center;
+}
+
+.assigned {
+  color: #cfa020;
+}
+
+.completed {
+  color: #10a23f;
+}
+
+.unassigned {
+  color: #616060;
+}
