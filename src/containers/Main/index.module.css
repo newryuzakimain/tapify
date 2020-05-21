@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.ticketList {
+  width: 400px;
+}
+
+.ticketDetail {
+  width: calc(100vw - 400px);
+  padding-left: .5rem;
+}
