@@ -1,8 +1,8 @@
-# Tickets View Project with React.js
+# Tickets View
 
-[Live Demo](https://tapify-jsx7v2oxa.now.sh/)
+[Live Demo](https://tapify.newryuzakimain.now.sh/)
 
-This project is test project to display tickets with react.js
+This is demo project to display tickets.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installation

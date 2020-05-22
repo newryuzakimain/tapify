@@ -1,21 +1,27 @@
 import React, { useEffect, useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 
 import TicketList from '../../components/TicketList';
 import TicketDetail from '../../components/TicketDetail';
 import { API_URL } from '../../config';
+import { setTickets } from '../../actions/tickets';
 import styles from './index.module.css';
 
 const Main = () => {
-  const [tickets, setTickets] = useState([]);
   const [selectedTicket, setSelectedTicket] = useState();
+  const { tickets } = useSelector(state =>  state.tickets, []);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     fetch(API_URL)
       .then(response => response.json())
       .then(data => {
-        setTickets(data)
+        dispatch(setTickets(data));
+      })
+      .catch(error => {
+        throw new Error(error);
       });
-  }, []);
+  }, [dispatch]);
 
   const selectTicketHandler = ticket => () => {
     setSelectedTicket(ticket);

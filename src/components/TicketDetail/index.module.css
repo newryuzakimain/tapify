@@ -5,3 +5,9 @@
   position: relative;
   height: -webkit-fill-available;
 }
+
+@media screen and (max-width: 800px) {
+  .root {
+    min-height: 400px;
+  }
+}
