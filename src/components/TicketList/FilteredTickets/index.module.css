@@ -1,7 +1,6 @@
 *::-webkit-scrollbar-track {
   /* border-radius: 8px; */
-  /* background-color: #323232; */
-  background-color: #252525;
+  background-color: #212121;
 }
 
 *::-webkit-scrollbar {
@@ -19,7 +18,7 @@
   margin-top: .5rem;
   border-radius: 2px;
   overflow: auto;
-  height: calc(100% - 38px);
+  height: calc(100vh - 98px);
   position: relative;
 }
 
@@ -44,8 +43,9 @@
 
 .itemContainer:hover, .selected {
   background: #414141;
-  border-left: 3px solid #4527a0;
+  border-left: 3px solid #723ae8;
   padding: 0 16px 0 13px;
+  transition: ease-out 0.5s;
 }
 
 .owner {
@@ -57,7 +57,7 @@
   width: 100px;
 }
 
-.itemContainer:hover, .selected .asset {
+.itemContainer:hover .asset, .selected .asset {
   color: white;
 }
 

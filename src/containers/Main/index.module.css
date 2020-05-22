@@ -14,3 +14,24 @@
   padding-left: .5rem;
   height: 100%;
 }
+
+@media screen and (max-width: 800px) {
+  .ticketList, .ticketDetail {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    height: unset;
+  }
+
+  .ticketList {
+    height: 300px;
+  }
+
+  .ticketDetail {
+    min-height: 400px;
+    padding-left: 0;
+    padding-top: .5rem;
+  }
+}

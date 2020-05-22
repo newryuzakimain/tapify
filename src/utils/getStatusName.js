@@ -7,7 +7,7 @@ const getStatusName = value => {
     case 'unassigned':
       return 'UNA';
     default: 
-      return null;
+      return '';
   }
 };
 
